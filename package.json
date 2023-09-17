@@ -1,0 +1,23 @@
+{
+  "name": "EzMap",
+  "version": "1.0.0",
+  "description": "EzMap monorepo",
+  "main": "index.js",
+  "repository": "https://github.com/Ez-Map/ezmap-backend.git",
+  "author": "Nguyen Gia Hoang <hoangng71299@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "@nrwl/js": "16.8.1",
+    "@nx-dotnet/core": "^1.22.0",
+    "nx": "16.8.1",
+    "nx-cloud": "latest"
+  },
+  "nx": {
+    "targets": {}
+  },
+  "scripts": {
+    "prepare": "nx g @nx-dotnet/core:restore"
+  },
+  "dependencies": {}
+}
