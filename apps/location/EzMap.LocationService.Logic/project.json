@@ -1,12 +1,12 @@
 {
-  "name": "ez-map.location-service.api",
+  "name": "ez-map.location-service.logic",
   "$schema": "../../../node_modules/nx/schemas/project-schema.json",
   "targets": {
     "build": {
       "executor": "@nx-dotnet/core:build",
       "outputs": [
-        "{workspaceRoot}/dist/src/location/EzMap.LocationService.Api",
-        "{workspaceRoot}/dist/intermediates/src/location/EzMap.LocationService.Api"
+        "{workspaceRoot}/dist/apps/location/EzMap.LocationService.Logic",
+        "{workspaceRoot}/dist/intermediates/apps/location/EzMap.LocationService.Logic"
       ],
       "options": {
         "configuration": "Debug",

@@ -1,0 +1,14 @@
+{
+  "name": "ez-map",
+  "root": "../../.",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "targets": {
+    "ls-project-root": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "ls"
+      }
+    }
+  },
+  "projectType": "library"
+}

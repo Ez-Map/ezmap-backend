@@ -2,7 +2,6 @@
   "name": "EzMap",
   "version": "1.0.0",
   "description": "EzMap monorepo",
-  "main": "index.js",
   "repository": "https://github.com/Ez-Map/ezmap-backend.git",
   "author": "Nguyen Gia Hoang <hoangng71299@gmail.com>",
   "license": "MIT",

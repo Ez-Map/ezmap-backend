@@ -1,0 +1,38 @@
+{
+  "name": "ez-map.location-service.api",
+  "$schema": "../../../node_modules/nx/schemas/project-schema.json",
+  "tags": ["type:api"],
+  "targets": {
+    "build": {
+      "executor": "@nx-dotnet/core:build",
+      "outputs": [
+        "{workspaceRoot}/dist/apps/location/EzMap.LocationService.Api",
+        "{workspaceRoot}/dist/intermediates/apps/location/EzMap.LocationService.Api"
+      ],
+      "options": {
+        "configuration": "Debug",
+        "noDependencies": true
+      },
+      "configurations": {
+        "production": {
+          "configuration": "Release"
+        }
+      }
+    },
+    "lint": {
+      "executor": "@nx-dotnet/core:format"
+    },
+    "serve": {
+      "executor": "@nx-dotnet/core:serve",
+      "options": {
+        "configuration": "Debug"
+      },
+      "configurations": {
+        "production": {
+          "configuration": "Release"
+        }
+      }
+    }
+  },
+  "projectType": "application"
+}

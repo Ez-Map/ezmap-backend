@@ -1,12 +1,13 @@
 {
   "name": "ez-map.profile-service.api",
   "$schema": "../../../node_modules/nx/schemas/project-schema.json",
+  "tags": ["type:api"],
   "targets": {
     "build": {
       "executor": "@nx-dotnet/core:build",
       "outputs": [
-        "{workspaceRoot}/dist/src/profile/EzMap.ProfileService.Api",
-        "{workspaceRoot}/dist/intermediates/src/profile/EzMap.ProfileService.Api"
+        "{workspaceRoot}/dist/apps/profile/EzMap.ProfileService.Api",
+        "{workspaceRoot}/dist/intermediates/apps/profile/EzMap.ProfileService.Api"
       ],
       "options": {
         "configuration": "Debug",
@@ -20,7 +21,18 @@
     },
     "lint": {
       "executor": "@nx-dotnet/core:format"
+    },
+    "serve": {
+      "executor": "@nx-dotnet/core:serve",
+      "options": {
+        "configuration": "Debug"
+      },
+      "configurations": {
+        "production": {
+          "configuration": "Release"
+        }
+      }
     }
   },
-  "projectType": "library"
+  "projectType": "application"
 }

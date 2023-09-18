@@ -1,8 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{A5662BB9-296A-4434-81C9-0E555F64836B}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "apps", "apps", "{A5662BB9-296A-4434-81C9-0E555F64836B}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "core", "core", "{78FA81E1-378A-4BEB-BFE2-ED6D27E785E7}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "libs", "libs", "{78FA81E1-378A-4BEB-BFE2-ED6D27E785E7}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "contracts", "contracts", "{A417C90B-2119-46F6-9B2D-6E081380AFEB}"
 EndProject
@@ -15,15 +15,16 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_etc", "_etc", "{6203EB22-1
 		README.md = README.md
 		Directory.Build.props = Directory.Build.props
 		package.json = package.json
+		nx.json = nx.json
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "domain", "domain", "{838E2207-D708-4663-ABE7-1EC88373C0FE}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "infrastructure", "infrastructure", "{F76A59A8-878C-4F09-A161-B2A10F8EF40D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EzMap.LocationService.Api", "src\location\EzMap.LocationService.Api\EzMap.LocationService.Api.csproj", "{E2D39852-91FA-41A6-A5ED-1AFDEA608F6E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EzMap.LocationService.Api", "apps\location\EzMap.LocationService.Api\EzMap.LocationService.Api.csproj", "{E2D39852-91FA-41A6-A5ED-1AFDEA608F6E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EzMap.ProfileService.Api", "src\profile\EzMap.ProfileService.Api\EzMap.ProfileService.Api.csproj", "{7C52A829-361E-4976-AA71-CE3F30BCA3B9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EzMap.ProfileService.Api", "apps\profile\EzMap.ProfileService.Api\EzMap.ProfileService.Api.csproj", "{7C52A829-361E-4976-AA71-CE3F30BCA3B9}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "api-gateway", "api-gateway", "{0AD1C427-1D10-4F1C-A593-86788EE9C91B}"
 EndProject
